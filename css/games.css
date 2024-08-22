@@ -1,0 +1,63 @@
+.games__cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.games__card{
+    background-image: url(../img/games.png);
+    background-size: 100% 100%;
+    padding: 300px 130px;
+    object-fit: cover;
+}
+.games__card-desc{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+.games__card-img{
+    text-align: center;
+}
+.games__card2{
+    background-image: url(../img/games2.png);
+    background-size: 100% 100%;
+    padding: 300px 130px;
+    object-fit: cover;
+}
+.games__card3{
+    background-image: url(../img/games3.png);
+    background-size: 100% 100%;
+    padding: 300px 133.5px;
+    object-fit: cover;
+}@media(max-width:1400px){
+    .games__cards{
+        background-color: black;
+    }
+}
+@media(max-width:550px){
+    .games__card{
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+        padding: 150px 50px;
+    }
+    .games__card-img img{
+        width: 50%;
+    }
+    .games__card-desc{
+        font-size: 26px ;
+        width: 100%;
+        text-align: center;
+    }
+    .games__card2{
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+        padding: 150px 50px;
+    }
+    .games__card3{
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+        padding: 150px 50px;
+    }
+}

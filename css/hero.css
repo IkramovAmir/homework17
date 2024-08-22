@@ -1,0 +1,111 @@
+.hero{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(
+        to right,
+        black 0%,
+        black 50%,
+        #57B8FF 50%,
+        #57B8FF 0% 
+    );
+    padding: 50px 0px;
+}
+.hero__infos{
+    display: flex;
+}
+.hero__left-icon{
+    display: flex;
+    align-items: center;
+    color: #57B8FF;
+    padding: 20px 0px;
+}
+.hero__left-title{
+    font-size: 98px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.hero__left-desc2{
+    font-size: 20px;
+    opacity: 0.7;
+    padding: 10px 0px;
+    color: white;
+}
+.hero__left-btns{
+    display: flex;
+    gap: 20px;
+    color: white;
+    padding: 20px 0px;
+}
+.hero__left-btn-more{
+    padding: 10px 30px;
+    font-size: 21px;
+}
+.hero__left-btn-more:hover{
+    background-color: #57B8FF;
+    color: white;
+}
+.hero__left-btn-view{
+    padding: 10px 30px;
+    border: none;
+    background-color: inherit;
+    color: white;
+    font-size: 21px;
+}
+.hero__left-btn-view:hover{
+    color: #ffe657;
+}
+@media(max-width:1300px){
+    .hero__left{
+        width: 100%;
+    }
+    .hero__left-title{
+        font-size: 40px;
+        width: 300px;
+    }
+    .hero__left-desc2{
+        width: 300px;
+    }
+    .hero__right-img img{
+        width: 100%;
+    }
+}
+@media(max-width:770px){
+    .hero{
+         background: #57B8FF;
+         width: 100%;
+         height: 100vh;
+    }
+    .hero__infos{
+        flex-wrap: wrap;
+       
+    }
+    .hero__left-desc2{
+        width: 100%;
+        text-align: center;
+    }
+    .hero__left-desc{
+        font-size: 12px;
+        color: white;
+    }
+    .hero__left-title{
+        font-size: 27px;
+        width: 100%;
+        text-align: center;
+    }
+    .hero__left-desc2{
+        font-size: 15px;
+    }
+    .hero__left-btns{
+        display: flex;
+        gap: 2px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .hero__left-btn-more{
+        padding: 5px 10px;
+        font-size: 13px;
+    }
+    .hero__left-btn-view{
+        font-size: 13px;
+    }
+}
